@@ -112,4 +112,58 @@ img {
     color: white;
 }
 
+.movesDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.moveBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.moveLabel {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.moveDisplay {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 3px solid #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.moveDisplay img {
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.placeholder {
+    font-size: 4rem;
+    color: #999;
+    font-weight: bold;
+}
+
+.vs {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
 
